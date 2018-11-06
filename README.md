@@ -1,2 +1,2 @@
 # fun_cat
-notes on categories and functional programming
+notes on neuroscience and other things
