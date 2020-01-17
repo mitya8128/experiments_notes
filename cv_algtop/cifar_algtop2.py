@@ -29,12 +29,15 @@ y_test = keras.utils.to_categorical(y_test, num_classes)
 
 
 # average clustering coefficient of data graph
-class Graph_features(Layer):
+class GraphFeatures(Layer):
+
     def __init__(self, output_dim, **kwargs):
+
         self.output_dim = output_dim
         super(Graph_features, self).__init__(**kwargs)
 
     def build(self, input_shape):
+
         # Create a trainable weight variable for this layer.
         self.kernel = self.add_weight(name='kernel',
                                       shape=(input_shape[1], self.output_dim),
@@ -43,13 +46,16 @@ class Graph_features(Layer):
         super(Graph_features, self).build(input_shape)  # Be sure to call this at the end
 
     def call(self, x):
+
         return VietorisRipsComplex.network_features(x, self.kernel)
 
     def compute_output_shape(self, input_shape):
+
         return (input_shape[0], self.output_dim)
 
 
 def build_model():
+
     assert isinstance(x_train, object)
     input = Input(shape=x_train.shape[1:])
     x = Conv2D(32, (3, 3), padding='same')(input)
