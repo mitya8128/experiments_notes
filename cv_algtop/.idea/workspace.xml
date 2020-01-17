@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6381a38-b4e1-48a6-a6ac-a1137b4d307f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VfwPoVowfbeEY4z5hP5L1Cy5iw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/MoguTDA/setup.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.cifar_algtop2">
+    <configuration name="cifar_algtop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv_algtop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cifar_algtop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cifar_algtop2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv_algtop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cifar_algtop2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cv_algtop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/MoguTDA" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/MoguTDA/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cifar_algtop2" />
+        <item itemvalue="Python.setup" />
+        <item itemvalue="Python.cifar_algtop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6381a38-b4e1-48a6-a6ac-a1137b4d307f" name="Default Changelist" comment="" />
+      <created>1577657436728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577657436728</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#Inspections" timestamp="1577660343721">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#Inspections/67.27.1853.1053@67.27.1853.1053" timestamp="1577660343721" />
+    <state x="451" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577657886925">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1577657886925" />
+    <state x="688" y="358" width="599" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577657484379">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="688" y="358" width="599" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1577657484379" />
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577734724339">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1577734724339" />
+    <state width="1377" height="322" key="GridCell.Tab.0.bottom" timestamp="1579221958436">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958436" />
+    <state width="1377" height="322" key="GridCell.Tab.0.center" timestamp="1579221958435">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958435" />
+    <state width="1377" height="322" key="GridCell.Tab.0.left" timestamp="1579221958435">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958435" />
+    <state width="1377" height="322" key="GridCell.Tab.0.right" timestamp="1579221958436">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958436" />
+    <state width="1377" height="322" key="GridCell.Tab.1.bottom" timestamp="1579221958436">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958436" />
+    <state width="1377" height="322" key="GridCell.Tab.1.center" timestamp="1579221958436">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958436" />
+    <state width="1377" height="322" key="GridCell.Tab.1.left" timestamp="1579221958436">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958436" />
+    <state width="1377" height="322" key="GridCell.Tab.1.right" timestamp="1579221958436">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="322" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579221958436" />
+    <state x="373" y="150" key="SettingsEditor" timestamp="1579222122064">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="373" y="150" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1579222122064" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1579165515202">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579165515202" />
+    <state x="495" y="315" width="890" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579221224551">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="495" y="315" width="890" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1579221224551" />
+    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1579221987285">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1579221987285" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="__exception__" />
+        <watch expression="__exception__" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
