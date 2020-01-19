@@ -32,30 +32,26 @@ y_test = keras.utils.to_categorical(y_test, num_classes)
 class GraphFeatures(Layer):
 
     def __init__(self, output_dim, **kwargs):
-
+        super().__init__(**kwargs)
         self.output_dim = output_dim
-        super(Graph_features, self).__init__(**kwargs)
+        super(GraphFeatures, self).__init__(**kwargs)
 
     def build(self, input_shape):
-
         # Create a trainable weight variable for this layer.
         self.kernel = self.add_weight(name='kernel',
                                       shape=(input_shape[1], self.output_dim),
                                       initializer='uniform',
                                       trainable=True)
-        super(Graph_features, self).build(input_shape)  # Be sure to call this at the end
+        super(GraphFeatures, self).build(input_shape)  # Be sure to call this at the end
 
     def call(self, x):
-
         return VietorisRipsComplex.network_features(x, self.kernel)
 
     def compute_output_shape(self, input_shape):
-
         return (input_shape[0], self.output_dim)
 
 
 def build_model():
-
     assert isinstance(x_train, object)
     input = Input(shape=x_train.shape[1:])
     x = Conv2D(32, (3, 3), padding='same')(input)
@@ -69,7 +65,7 @@ def build_model():
     x = Conv2D(64, (3, 3))(x)
     x = Activation('relu')(x)
     x = MaxPooling2D(pool_size=(2, 2))(x)
-    x = Graph_features()(x)
+    # x = GraphFeatures()(x)    # (6,6,64)
     x = Dropout(0.25)(x)
     x = Flatten()(x)
     x = Dense(512)(x)
@@ -84,6 +80,7 @@ def build_model():
     model.compile(loss='categorical_crossentropy',
                   optimizer=opt,
                   metrics=['accuracy'])
+    model.summary()
 
     return model
 
