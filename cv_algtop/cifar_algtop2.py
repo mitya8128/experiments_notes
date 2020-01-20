@@ -45,7 +45,7 @@ class GraphFeatures(Layer):
         super(GraphFeatures, self).build(input_shape)  # Be sure to call this at the end
 
     def call(self, x):
-        return VietorisRipsComplex.network_features(x, self.kernel)
+        return VietorisRipsComplex.clustering(x, self.kernel)
 
     def compute_output_shape(self, input_shape):
         return (input_shape[0], self.output_dim)
