@@ -65,7 +65,7 @@ def build_model():
     x = Conv2D(64, (3, 3))(x)
     x = Activation('relu')(x)
     x = MaxPooling2D(pool_size=(2, 2))(x)
-    # x = GraphFeatures()(x)    # (6,6,64)
+    x = GraphFeatures((6,6,64))(x)    # (6,6,64)  --> Can't convert Python sequence with mixed types to Tensor
     x = Dropout(0.25)(x)
     x = Flatten()(x)
     x = Dense(512)(x)
